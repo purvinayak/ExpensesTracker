@@ -1,0 +1,38 @@
+/* Ensure the navbar is styled with a background color and proper padding */
+
+
+
+
+.navbar {
+    background-color: #2060a0; /* This is equivalent to bg-body-tertiary */
+    padding: 1rem;
+     background: linear-gradient(100deg, #40bcc0 , #16169a);
+
+  }
+  
+  /* Adjust the container to ensure content is well-aligned */
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style the navbar brand */
+  .navbar-brand {
+    padding-left: 20%;
+    font-size: 30px;
+    color: red;
+
+  }
+  
+  /* Style the button */
+  .btn-primary {
+    font-size: 1.25rem; /* btn-lg equivalent */
+  }
+  
+  /* Style the image */
+  .img-thumbnail {
+    padding-right: 100px;
+    max-width: 150px; /* Adjust width as needed */
+    height: auto;
+  }
